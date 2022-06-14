@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>imagem dinanmicas</h1>
+    <p>tente abrir as imagem em vários dispositivos, ou aumente
+    o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="opa">
+    </picture>
+
+    <h2>Reproduzindo Audio</h2>
+    <p>escuta essa musica de atribulado</p>
+    <audio controls src="midea/Enough - NEFFEX.mp3"></audio><br>
+    <p>Agora ousa esse louvor.... Agora você será liberto</p>
+    <audio preload="metadata" controls  >
+        <source src="midea/Ainda há tempo - Áudio.mp3" type="audio/mpeg">
+        <source src="midea/Ainda há tempo - Áudio.ogg" type="audio/ogg">
+        <source src="midea/Ainda há tempo - Áudio.mp3" type="audio/wav">
+    </audio>
+
+</body>
+</html>

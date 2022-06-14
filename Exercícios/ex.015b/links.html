@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+
+        }
+        a:visited {
+            color: darkred;
+        }
+        a::after{
+            content:' [link]';
+            color: #000000;
+            
+
+        }
+        .esp::before{
+            content: '=>';
+           
+        }
+        .esp{
+            background-color: rgba(245, 101, 101, 0.699);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="https://www.facebook.com/profile.php?id=100005905878528" target="_blank">Perfl do facebook</a>     </li>
+        <li> <a href="https://www.instagram.com/opasamuel19/" class="esp">Perfl do instagram</a></li>
+        <li> <a href="https://www.linkedin.com/in/samuel-alves-826268236/">Perfil do linkedin</a></li>
+    </ul>
+</body>
+</html>
