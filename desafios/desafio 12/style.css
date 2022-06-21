@@ -42,6 +42,7 @@ article{
 }
 article > p{
     line-height: 2em;
+    padding: 1em;
 }
 article.normal{
     background-color: white;
@@ -49,11 +50,24 @@ article.normal{
 article.imagem{
     background-color: rgb(109, 108, 108);
     color: white;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.637);
 }
 article.imagem > p{
-    background-color: rgba(46, 46, 46, 0.534);
+    background-color: rgba(37, 37, 37, 0.329);
     width: 400px;
     padding: 10px;
+}
+article#f1{
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+article#f2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
 }
 footer{
     color: white;
