@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color: lightgray;
+}
+header{
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+header a{
+    
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+article{
+    padding-left: 30px;
+    line-height: 2em;
+
+}
+
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+article.normal{
+    background-color: white;
+    
+}
+article.imagem{
+    background-color: #292828;
+}
+article.imagem p{
+    color: white;
+    background-color: #00000041;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
